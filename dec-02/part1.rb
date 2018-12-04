@@ -1,7 +1,6 @@
 #!/usr/bin/ruby
 
-input_array = [
-]
+input_array = File.readlines('input.txt')
 
 num_doubles = 0
 num_triples = 0

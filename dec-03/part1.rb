@@ -1,7 +1,6 @@
 #!/usr/bin/ruby
 
-input_array = [
-]
+input_array = File.readlines('input.txt')
 
 fabric_map = {}
 

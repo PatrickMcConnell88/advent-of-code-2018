@@ -1,6 +1,5 @@
 #!/usr/bin/ruby
-input_array = [
-]
+input_array = File.readlines('input.txt')
 
 length = input_array[0].length
 input_array.each do |id1|
