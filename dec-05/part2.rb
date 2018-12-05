@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 input_array = File.readlines('input.txt')
-char_array = input_array[0].chars.flatten.compact
+char_array = input_array[0].strip.chars.flatten.compact
 char_map = {}
 char_array.each do |c|
   char_to_insert = c.downcase
@@ -41,4 +41,4 @@ char_map.each do |char_to_delete, total|
   end
 end
 
-puts polymer_count - 1
+puts polymer_count

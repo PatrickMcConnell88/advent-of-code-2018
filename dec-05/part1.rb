@@ -2,7 +2,7 @@
 
 input_array = File.readlines('input.txt')
 
-char_array = input_array[0].chars
+char_array = input_array[0].strip.chars
 
 count = 1
 while count > 0
@@ -26,4 +26,4 @@ end
 
 char_array.flatten!
 char_array.compact!
-puts char_array.size - 1
+puts char_array.size
